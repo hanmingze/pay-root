@@ -1,0 +1,50 @@
+spring:
+  transaction:
+    rollback-on-commit-failure: true
+  aop:
+    auto: true
+    proxy-target-class: true
+  datasource:
+    druid:
+      master:
+        url: jdbc:mysql://rm-2zewb8ua94pdgftgno.mysql.rds.aliyuncs.com:3306/budianpay?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false
+        username: budianpay_dev
+        password: budianpay001%$#@!
+        initial-size: 2
+      slave:
+        url: jdbc:mysql://rm-2zewb8ua94pdgftgno.mysql.rds.aliyuncs.com:3306/budianpay?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false
+        username: budianpay_dev
+        password: budianpay001%$#@!
+        initial-size: 4
+  dubbo:
+      application:
+        name: provider
+      registry:
+        address: zookeeper://127.0.0.1:2181
+      protocol:
+        name: dubbo
+        host: 127.0.0.1
+        port: 20880
+      scan: com.meetcity.payment.core
+  redis:
+    host: 127.0.0.1
+    password:
+    port: 6379
+    pool:
+      max-idle: 100
+      min-idle: 1
+      max-active: 1000
+      max-wait: -1
+
+
+mapper:
+  not-empty: false
+  identity: MYSQL
+
+pagehelper:
+  helperDialect: mysql
+
+logging:
+  level:
+    root: info
+    com.meetcity: debug
