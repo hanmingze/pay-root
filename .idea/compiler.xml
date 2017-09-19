@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="payment-admin" />
+        <module name="payment-agent" />
+        <module name="payment-batch" />
+        <module name="payment-channel" />
+        <module name="payment-channel-endpoint" />
+        <module name="payment-core" />
+        <module name="payment-core-api" />
+        <module name="payment-merchant" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="pay-root" target="1.5" />
+      <module name="payment-admin" target="1.7" />
+      <module name="payment-agent" target="1.7" />
+      <module name="payment-batch" target="1.7" />
+      <module name="payment-channel" target="1.7" />
+      <module name="payment-channel-endpoint" target="1.8" />
+      <module name="payment-core" target="1.8" />
+      <module name="payment-core-api" target="1.5" />
+      <module name="payment-merchant" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

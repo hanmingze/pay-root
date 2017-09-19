@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/payment-admin" vcs="" />
+    <mapping directory="$PROJECT_DIR$/payment-agent" vcs="" />
+    <mapping directory="$PROJECT_DIR$/payment-batch" vcs="" />
+    <mapping directory="$PROJECT_DIR$/payment-channel" vcs="" />
+    <mapping directory="$PROJECT_DIR$/payment-channel-endpoint" vcs="" />
+    <mapping directory="$PROJECT_DIR$/payment-core" vcs="" />
+    <mapping directory="$PROJECT_DIR$/payment-core-api" vcs="" />
+    <mapping directory="$PROJECT_DIR$/payment-merchant" vcs="" />
+  </component>
+</project>

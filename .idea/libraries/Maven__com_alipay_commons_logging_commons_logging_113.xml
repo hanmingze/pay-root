@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.alipay.commons-logging:commons-logging:113">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/alipay/commons-logging/commons-logging/113/commons-logging-113.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/alipay/commons-logging/commons-logging/113/commons-logging-113-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/alipay/commons-logging/commons-logging/113/commons-logging-113-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

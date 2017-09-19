@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/pay-root.iml" filepath="$PROJECT_DIR$/pay-root.iml" />
+      <module fileurl="file://$PROJECT_DIR$/payment-admin/payment-admin.iml" filepath="$PROJECT_DIR$/payment-admin/payment-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/payment-agent/payment-agent.iml" filepath="$PROJECT_DIR$/payment-agent/payment-agent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/payment-batch/payment-batch.iml" filepath="$PROJECT_DIR$/payment-batch/payment-batch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/payment-channel/payment-channel.iml" filepath="$PROJECT_DIR$/payment-channel/payment-channel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/payment-channel-endpoint/payment-channel-endpoint.iml" filepath="$PROJECT_DIR$/payment-channel-endpoint/payment-channel-endpoint.iml" />
+      <module fileurl="file://$PROJECT_DIR$/payment-core/payment-core.iml" filepath="$PROJECT_DIR$/payment-core/payment-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/payment-core-api/payment-core-api.iml" filepath="$PROJECT_DIR$/payment-core-api/payment-core-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/payment-merchant/payment-merchant.iml" filepath="$PROJECT_DIR$/payment-merchant/payment-merchant.iml" />
+    </modules>
+  </component>
+</project>

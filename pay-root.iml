@@ -8,6 +8,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="alipay-sdk-java20170829142630" level="project" />
+    <orderEntry type="library" name="lib" level="project" />
   </component>
 </module>

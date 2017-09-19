@@ -9,8 +9,9 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <groupId>com.meetcity</groupId>
     <artifactId>payment-admin</artifactId>
-
+    <version>1.0-SNAPSHOT</version>
     <description>运营管理后台</description>
 
     <dependencyManagement>
@@ -28,6 +29,11 @@
     </dependencyManagement>
 
     <dependencies>
+        <dependency>
+            <groupId>com.meetcity</groupId>
+            <version>1.0-SNAPSHOT</version>
+            <artifactId>payment-core-api</artifactId>
+        </dependency>
         <!--Spring Boot依赖-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
